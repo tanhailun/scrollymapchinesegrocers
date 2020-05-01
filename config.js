@@ -5,7 +5,7 @@ var config = {
     theme: 'dark',
     alignment: 'left',
     title: 'Chinese Grocers in Greenville, Mississippi',
-    subtitle: 'A Digital Narrative of the Chinese Diaspora to the American South, circa 1930',
+    subtitle: 'A Digital Narrative of the Chinese Diaspora in the American South in the Early 20th Century',
     byline: 'Hai Lun Tan, Mapping for Architecture, Spring 2020',
     footer: 'Source: source citations, etc.',
     chapters: [
@@ -69,6 +69,35 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         }, 
+
+        {
+            id: 'other-identifier5',
+            title: 'Malone and Hyde Wholesalers',
+            image: 'https://ia800303.us.archive.org/BookReader/BookReaderImages.php?zip=/17/items/Tri-stateChineseDirectoryOfMississippiArkansasAndTennessee/Tri-stateDirectory_single_page_jp2.zip&file=Tri-stateDirectory_single_page_jp2/Tri-stateDirectory_single_page_0041.jp2&scale=4&rotate=0',
+            description: 'Most Chinese grocers bought their produce wholesale from wholesalers, like Malone and Hyde. They often cultivated an often tenuous but economically practical relationship with one another. Sometimes grocers would have to travel out of state for produce. ',
+            location: {
+                center: [-90.05745, 35.10627],
+                zoom: 15.12,
+                pitch: 0.00,
+                bearing: 15.60
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        }, 
+        {
+            id: 'other-identifier6',
+            title: 'Greenville Bank and Trust Co. ',
+            image: 'https://ia800303.us.archive.org/BookReader/BookReaderImages.php?zip=/17/items/Tri-stateChineseDirectoryOfMississippiArkansasAndTennessee/Tri-stateDirectory_single_page_jp2.zip&file=Tri-stateDirectory_single_page_jp2/Tri-stateDirectory_single_page_0006.jp2&scale=2&rotate=0',
+            description:'The role of banks in the lives of Chinese grocers is understudied. Most grocery stores relied heavily on kinship networks and family members to work in the stores. Directories, such as this, offers a look into the ways banking became a more central facet in every day life. This could suggest a sense of permanence and settling among the Chinese community as we move toward the 1940s and 1950s.',
+            location: {
+               center: [-91.06133, 33.41169],
+                zoom: 16.00,
+                pitch: 1.50,
+                bearing: 34.40
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        }, 
         {
             id: 'other-identifier3',
             title: 'First Baptist Church in Greenville',
@@ -111,7 +140,21 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-
+      
+        {
+            id: 'other-identifier10',
+            title: 'Conclusion',
+            image: '',
+            description: 'The pinned locations attempt to detail the circuits of the socio-economic lives of Chinese grocers and their families during the early 20th century. Other anchoring points included the network of Baptist churches and schools. Ultimately, a large part of their livelihoods focused on their grocery stores and this became the vehicle in which they navigated the complicated racial and economic contexts in the midst of the Jim Crow South.',
+            location: {
+               center: [-91.05360, 33.40159,],
+                zoom: 9.29,
+                pitch: 45.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        },
 
 
     ]
